@@ -1,0 +1,52 @@
+
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .navlinks {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navlinks li {
+    margin-right: 20px;
+  }
+  
+  .navlinks a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navlinks a:hover {
+    text-decoration: underline;
+  }
+  
+  .user select {
+    padding: 1rem;
+    font-size: 1rem;
+    border: 3px solid #ddd;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s;
+    
+  }
+  
+  .user select:hover,
+  .user select:focus {
+    border-color: #555;
+  }  
